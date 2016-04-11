@@ -1,0 +1,44 @@
+{
+  "version": "1.0.0-rc2-20444",
+  "compilationOptions": {
+    "emitEntryPoint": true,
+    "preserveCompilationContext": true
+  },
+
+  "dependencies": {
+    "Microsoft.AspNetCore.Diagnostics": "1.0.0-rc2-20458",
+    "Microsoft.AspNetCore.IISPlatformHandler": "1.0.0-rc2-20458",
+    "Microsoft.AspNetCore.HttpOverrides": "1.0.0-rc2-20458",
+    "Microsoft.AspNetCore.Mvc": "1.0.0-rc2-20458",
+    "Microsoft.AspNetCore.Mvc.Dnx": "1.0.0-rc2-20458",
+    "Microsoft.AspNetCore.Mvc.Razor": "1.0.0-rc2-20446",
+    "Microsoft.AspNetCore.Server.Kestrel": "1.0.0-rc2-20458",
+    "Microsoft.AspNetCore.StaticFiles": "1.0.0-rc2-20458"
+  },
+
+  "commands": {
+    "web": "Dnx.Working"
+  },
+
+  "frameworks": {
+    "net451": {
+      "frameworkAssemblies": {
+        "System.Runtime": "4.0.10.0",
+        "System.ComponentModel": "4.0.0.0",
+        "System.Collections": "4.0.0.0",
+        "System.Xml.ReaderWriter": "4.0.0.0",
+        "System.IO": "4.0.0.0"
+      }
+    }
+  },
+
+  "exclude": [
+    "wwwroot",
+    "node_modules"
+  ],
+
+  "publishExclude": [
+    "**.user",
+    "**.vspscc"
+  ]
+}
